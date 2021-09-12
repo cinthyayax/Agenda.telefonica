@@ -1,0 +1,9 @@
+
+AGENDA TELEFÓNICA.
+Realizada por Cinthya Yax Gordiano
+
+
+		INGRESO A PHPMYADMIN
+
+	Usuario: "root"
+	Contraseña: "root2021"

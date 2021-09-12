@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	color: #000000;
+	background-attachment: scroll;
+	background-image: url(../images/bg.jpg);
+	background-repeat:  repeat-x;
+	background-position: top;
+	background-color: #004595;
+}
+
+.oneColFixCtr #container {
+	width: 990px;  
+	
+	background: #fff;
+	margin: 0 auto;
+	text-align: left;	
+	height:100%;	
+}
+
+/* encabezado de la pagina */ 
+.oneColFixCtr #container #header {
+	width:100%;
+	height:49px;
+	position:relative;
+}
+
+.oneColFixCtr #container #header #logoagenda {
+	position:absolute;
+	/*background: url(../images/telefono.jpg) left no-repeat;*/	
+	width:300px;
+	height:35px;
+	left:15px;
+}
+
+.oneColFixCtr #container #header #verde {
+	background: url(../images/bg.jpg) repeat-x;
+	width:100%;
+	height:17px;
+}
+
+.oneColFixCtr #container #header #blanco {
+	background-color: #FFFFFF;
+	width:100%;
+	height:40px;
+}
+
+#blanco #menuAgenda {
+	position:absolute;
+	left:90px;
+	padding-top:0px;
+	list-style:none;
+	width: 675px;
+}
+
+#blanco #menuAgenda li {
+        float: left;
+		padding-right:18px;
+		padding-left:18px;
+		border-right: solid 1px #000;
+}
+#blanco #menuAgenda li.fin {
+	border-right:0px;
+}
+
+#menuAgenda a, #menuAgenda a:visited{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	margin: 3px;}
+#menuAgenda a:hover{ color: #999999;}
+
+/* menuRUTA */ 
+#verde #menuRuta{
+	position:absolute;
+	left:105px;
+	list-style:none;
+	font-size:10px;
+	width: 559px;
+	margin-top:2px;
+}
+
+#verde #menuRuta li {
+        float: left;
+
+}
+#verde #menuRuta li.fin {
+	border-right:0px;
+}
+
+#menuRuta a, #menuRuta a:visited{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	margin: 3px;}
+#menuRuta a:hover{ color: #fff;}
+
+/* fin menuRuta */
+
+/* fin encabezado de pagina */ 
+
+/* contenido */
+
+#contenido {
+	padding:10px 10px 10px 10px;    /* top ,right, bottom, left  */
+	position: relative;
+}
+
+
+/* fin contenido */
+
+/*area de menu ---------------------------------------------------------------------------------------------------------------------------------------*/
+.oneColFixCtr #container #menuContainer {
+	width:100%;
+	height:20px;
+	position: relative;
+	text-align: left;	
+	padding-left:10px;			
+}
+/*FIN  area de menu ------------------------------------------------------*/
+
+/*MENU ----------------------------------*/
+
+.oneColFixCtr #container #menuContainer #menuLayer {
+	position:relative;
+	bottom:0px;
+	right:0px;
+	font-size:10px;
+	padding-right:10px;	
+}
+
+#menu {list-style-type:none; padding:0;}
+#menu li.big {float:left; padding:0; position:relative; width:128px; height:22px; z-index:100; }
+#menu li.small {float:left; padding:0; position:relative; width:100px; height:22px; z-index:100;}
+#menu li dl {position:absolute; top:0; left:0; padding-bottom:0;}
+#menu li a, #menu li a:visited {text-decoration:none; color: #fff; padding-top:7px;}
+#menu li dd {display:none;}
+#menu li a:hover {border:0;}
+#menu li:hover dd, #menu li a:hover dd {display:block;}
+#menu li:hover dl, #menu li a:hover dl {padding-bottom:10px;}
+#menu table {border-collapse:collapse; padding:0; margin:-1px;}
+#menu dl.dlsmall {
+	width: 91px;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+#menu dl.dlbig {
+	width: 125px;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+}
+
+#menu dt {margin:0; padding: 0;}
+
+#menu dd {margin:0; padding:0; color: #fff; text-align:left;}
+
+#menu  dt.big a, #menu  dt.big a:visited {
+	display:block; text-align:center; BACKGROUND-IMAGE: url(../images/tabs.jpg); BACKGROUND-POSITION: 0px 0px; width:127px; height:19px; 
+}
+
+#menu li:hover dt.big a, #menu a:hover dt.big a {BACKGROUND-POSITION: 0px 29px;}
+
+#menu  dt.small a, #menu  dt.small a:visited {
+	display:block; text-align:center; BACKGROUND-IMAGE: url(../images/tabs.jpg); BACKGROUND-POSITION: 93px 0px; width:93px; height:19px; }
+
+#menu li:hover dt.small a, #menu a:hover dt.small a {BACKGROUND-POSITION: 93px 29px;}
+
+#menu dd a, #menu dd a:visited {background:#80DBFA; color:#006699; padding:0.5em 0; text-decoration:none; display:block; text-align:center; }
+
+#menu dd a:hover { background: #00B8F7; color:#fff; }
+
+/*Fin MENU  ---------------------------------------------------------*/
+
+/*Inicio Estilo de tablas */
+table { width: 100%;}
+
+th {     font-size: 13px;     font-weight:bold;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+/*Fin Estilo de tablas */

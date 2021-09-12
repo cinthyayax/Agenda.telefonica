@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1,h2,h3 {
+	color: #004595;
+}
+
+h1 { font-size:18px; } 
+h2 { font-size:14px; }
+h3 { font-size:12px; }
+
+
+h2.mensaje {
+	background:url(../images/notification_done.jpg) no-repeat left;
+	border: solid 1px #99CC00;
+	height:20px;
+	color:#99CC00;
+	padding:10px 0 10px 50px;
+}
+h2.error {
+	background:url(../images/notification_error.jpg) no-repeat left;
+	border: solid 1px #FF0000;
+	height:20px;
+	color:#FF0000;
+	padding:10px 0 10px 50px;
+}
+
+#nota {
+	background-color:#FFFF99;
+	border: 1px solid #FFCC33;
+	padding: 10px;
+}
+form input,
+form select {
+	float: left;
+}
+
+a.btnBuscar, a:visited.btnBuscar{
+	background:url(../images/search.jpg) no-repeat ;
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+	display: inline-block;
+	height:20px;
+	width:20px;
+	display:block;
+}
+
+tr.row1 {
+	background-color: #FFFFFF;
+}
+tr.row2 {
+	background-color: #EEF3F5;
+}
+tr.row3 {
+	background-color: #EEEEEE;
+}
+tr.selected {
+	background-color: #80DBFA;
+}
